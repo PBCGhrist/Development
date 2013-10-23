@@ -23,5 +23,42 @@
 	*
 	*
 */
+nav{
+	background:#d7d0b8;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li{
+    display:inline;
+    text-decoration: none;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+    font-family:'new_ciclefina';
+    font-size:1.2rem;
+}
 
+nav a:hover{
+	background: #22201d;
+	color:white;
+}
+
+body{
+	background:#22201d;
+	width: 100%;
+	margin-left: 21%;
+	margin-right: 21%;
+}
+
+html{
+	margin: 0 21% 0 21%;
+	background: white;
+}
 
