@@ -23,7 +23,22 @@
 	*
 	*
 */
+
+html{
+	margin: 0 21% 0 21%;
+	background: #282828;
+	}
+
+body{
+	background:#22201d;
+	width: 100%;
+	padding-top: 13%;
+	font-size: 16px;
+	font-size: 100%;
+	}
+
 nav{
+	margin-top: 10px;
 	background:#d7d0b8;
     border:1px solid #ccc;
     border-width:1px 0;
@@ -31,11 +46,13 @@ nav{
     margin:0;
     padding:0;
     text-align:center;
-}
+	}
+
 nav li{
     display:inline;
     text-decoration: none;
-}
+	}
+
 nav a{
     display:inline-block;
     padding:10px;
@@ -43,22 +60,39 @@ nav a{
     color: white;
     font-family:'new_ciclefina';
     font-size:1.2rem;
-}
+	}
 
 nav a:hover{
 	background: #22201d;
 	color:white;
+	}
+
+p, h1, h2, div{
+	color:white;
+	}
+
+
+.header{
+	font-family: 'intrique_script_personal_usRg';
+	text-align: center;
+	font-size: 3rem;
 }
 
-body{
-	background:#22201d;
-	width: 100%;
-	margin-left: 21%;
-	margin-right: 21%;
+.welcome-head{
+	font-family: 'new_ciclefina';
+	text-align: center;
+	border: solid 1px white;
+	padding: 1.5em;
+	font-size: 2rem;
+	font-weight: 500;
 }
 
-html{
-	margin: 0 21% 0 21%;
-	background: white;
+.welcome{
+	margin-top: 3%;
+	padding: 4em;
+	background: #c24029;
 }
 
+.aboutUs{
+	margin-top: 2%;
+}
