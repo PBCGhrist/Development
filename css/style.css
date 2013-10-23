@@ -32,7 +32,7 @@ html{
 body{
 	background:#22201d;
 	width: 100%;
-	padding-top: 13%;
+	padding-top: 3%;
 	font-size: 16px;
 	font-size: 100%;
 	}
@@ -57,7 +57,7 @@ nav a{
     display:inline-block;
     padding:10px;
     text-decoration: none;
-    color: white;
+    color: #22201d;
     font-family:'new_ciclefina';
     font-size:1.2rem;
 	}
@@ -75,24 +75,36 @@ p, h1, h2, div{
 .header{
 	font-family: 'intrique_script_personal_usRg';
 	text-align: center;
-	font-size: 3rem;
-}
+	font-size: 5em;
+	color: white;
+	}
 
 .welcome-head{
 	font-family: 'new_ciclefina';
 	text-align: center;
-	border: solid 1px white;
 	padding: 1.5em;
 	font-size: 2rem;
 	font-weight: 500;
-}
+	width: 50%;
+	margin-left: 19%;
+	border:solid 1px white;
+	}
 
 .welcome{
 	margin-top: 3%;
 	padding: 4em;
 	background: #c24029;
-}
+	}
 
 .aboutUs{
 	margin-top: 2%;
+	}
+
+.logo{
+	margin-left: 26%;
+	margin-bottom: 5%;
+	}
+
+.team{
+	margin-left: 10%;
 }
